@@ -12,10 +12,10 @@
 </script>
 <form method="post">
 	<lable for='name'>Name</lable>
-	<input type="text" id='name' required>
+	<input type="text" id='name' name='name'required>
 	<br><br>
-	<lable for='eamil'>Email</lable>
-	<input type="email"id='email' required>
+	<lable for='email'>Email</lable>
+	<input type="email"id='email' name='email'required>
 	<br><br>
 	<lable>Gender</lable>
 	<input type="radio" name='gender' value='male' required>
@@ -31,13 +31,13 @@
 	</select>
 	<br><br>
 	<lable for='carage'>Car Age</lable>
-	<input type="number" id='carage' min=1 required>
+	<input type="number" id='carage' name='carage' min=1 required>
 	<br><br>
 	<lable for='dop'>Date of Purchase</lable>
-	<input type="date" name='dop' required>
+	<input type="date" id='dop' name='dop'required>
 	<br><br>
 	<lable for='password'>Password</lable>
-	<input type="password" name='password' required>
+	<input type="password" id='password' name='password' required>
 	<br><br>
 	<input type="submit" value=SUBMIT>
 </body>
